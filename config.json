@@ -1,0 +1,11 @@
+{
+    "token": "CLIENT_TOKEN",
+    "protection": true,
+    "method": "KICK", 
+    "reason": "This bot adding isn't allowed.",
+    "whitelist": [
+        "ID 1 FOR EXAMPLE",
+        "ID 2 FOR EXAMPLE",
+        "YOU CAN CONTINUE LIKE THIS"
+    ]
+}
