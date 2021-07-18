@@ -5,8 +5,8 @@
 * Client with `VIEW_AUDIT_LOGS` permission,
 * Client with `BAN_MEMBERS` or `KICK_MEMBERS` permission according to [config.json](https://github.com/Nyrok/block-o-bot/blob/main/config.json) file.
 # Install
-Download link [here](https://github.com/Nyrok/block-o-bot/archive/refs/heads/main.zip), then open your cmd in there dans type :
-`npm install` and `node main` to start after configuring [config.json](https://github.com/Nyrok/block-o-bot/blob/main/config.json) file.
+Download link [here](https://github.com/Nyrok/block-o-bot/archive/refs/heads/main.zip), then open your command prompt in there and type :
+`npm install`
 # Configurations
 | NEED TO EDIT | [config.json](https://github.com/Nyrok/block-o-bot/blob/main/config.json) | Default | Type
 | ------ | ------ | ------ | ------ | 
@@ -15,6 +15,7 @@ Download link [here](https://github.com/Nyrok/block-o-bot/archive/refs/heads/mai
 | method | Method used to punish **bots adding** | "KICK" | [String](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String)
 | reason | Reason of **Kick**/**Ban** | "This bot adding isn't allowed." | [String](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/String)
 | whitelist | Users to **Whitelist** | [] | [Array](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array)
+> Don't forget to start the script with the `node main` command.
 # Changelog
 > ## **1.0.0**
 >    * First Publish.
