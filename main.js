@@ -17,7 +17,8 @@ let {
 
 client.on('guildMemberAdd', async (bot) => {
     if (!bot.user.bot) return;
-    const getLogs = await bot.guild.fetchAuditLogs({
+    const guild = client.guilds.get(bot.guild.id)
+    const getLogs = await guild.fetchAuditLogs({
         limit: 1,
         type: 28
     });
